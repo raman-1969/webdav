@@ -1,0 +1,12 @@
+name = "webdav"
+main = "src/index.ts"
+compatibility_date = "2025-09-04"
+
+[vars]
+USERNAME = "raman"
+PASSWORD = "sywise08"
+BUCKET_NAME = "myfile"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "webdav"
